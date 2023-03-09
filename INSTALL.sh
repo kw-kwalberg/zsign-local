@@ -49,11 +49,7 @@ make
 
 
         # Dependencies
-        sudo apt-get install wget zip unzip build-essential checkinstall zlib1g-dev libssl-dev -y &&
-
-            # Installing Cmake latest
-            wget -qO- "https://cmake.org/files/v3.21/cmake-$CmakeV-linux-x86_64.tar.gz" | \
-            tar --strip-components=1 -xz -C /usr/local &&
+        apt-get install wget zip unzip build-essential cmake checkinstall zlib1g-dev libssl-dev -y &&
 
 
 # Compile zsign using cmake
